@@ -18,7 +18,9 @@ const ListItem = ({
       <h2 className='listItem__name'>{name}</h2>
       <p className='listItem__description'>{description}</p>
       <a 
-        href={twitterLink} 
+        href={twitterLink}
+        // eslint-disable-next-line react/jsx-no-target-blank
+        target="_blank"
         className='listItem__button'
       >
         visit twitter page
