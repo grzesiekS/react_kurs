@@ -3,7 +3,7 @@ import ListWrapper from './components/ListWrapper/ListWrapper';
 
 import './index.css';
 
-const initialStateArray = [
+const initialStateItems = [
     {
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Malevich.black-square.jpg/606px-Malevich.black-square.jpg',
         name: 'Dan Abramov',
@@ -32,7 +32,7 @@ const initialStateArray = [
 
 class App extends React.Component {
     state = {
-        items: [...initialStateArray]
+        items: [...initialStateItems]
     }
 
     render() {
