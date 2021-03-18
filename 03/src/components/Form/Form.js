@@ -1,5 +1,6 @@
 import React from "react";
 import Input from "../Input/Input";
+import Button from "../Button/Button";
 import styles from "./Form.module.scss";
 
 const Form = ({ submitFn }) => (
@@ -24,9 +25,9 @@ const Form = ({ submitFn }) => (
         name='description'
         label='Description'
       />
-      <button className={styles.button}>
-        add new item
-      </button>
+      <Button>
+        add new children
+      </Button>
     </form>
   </div>
 );
