@@ -24,5 +24,15 @@
   
   label {
     margin-right: 15px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  input {
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
